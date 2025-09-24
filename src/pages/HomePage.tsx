@@ -43,7 +43,7 @@ export default function HomePage() {
       <HeroSection onSearch={handleSearch} />
 
       {/* How Easy It Is Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-100 via-blue-50 to-blue-200 relative overflow-hidden">
+      <section className="pt-10 py-20 bg-gradient-to-br from-blue-100 via-blue-50 to-blue-200 relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="absolute top-0 left-1/4 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob"></div>
